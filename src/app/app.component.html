@@ -1,0 +1,23 @@
+<nav>
+    <div class="inside-nav">
+        <a routerLink="/" class="logo">Kingdom of Rus</a>
+        <div class="nav">
+            <label class="menu-btn" for="menu">
+                <span class="burger"></span>
+                <span class="burger"></span>
+                <span class="burger"></span>
+            </label>
+            <input type="checkbox" id="menu"/>
+            <ul class="navigation">
+                <li><a routerLink="/">Home</a></li>
+                <li><a routerLink="/kings">Kings</a></li>
+                <li><a routerLink="/cities">Cities</a></li>
+                <li><a routerLink="/history">History</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="content">
+    <router-outlet></router-outlet>
+</div>

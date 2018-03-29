@@ -1,0 +1,33 @@
+.ruler{
+    width: 300px;
+    height: auto;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ruler-name{
+    font-size: 22px;
+    width: 100%;
+}
+
+.ruler img{
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+
+.ruder-bio{
+    text-align: justify;
+}
+
+.hovered{
+    transform: scale(1.1);
+    z-index: 10;
+    transition: .5s;
+}
