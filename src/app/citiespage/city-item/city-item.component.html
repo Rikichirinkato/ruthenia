@@ -1,0 +1,13 @@
+<button mat-raised-button color="primary" (click)="close()">Close</button>
+<H2>
+  {{data.city}}
+</H2>
+<div *ngFor="let region of objectKeys(data.info)">
+  <div *ngFor="let city of objectKeys(data.info[region])">
+    <div *ngIf="city === data.city">
+      It was found on {{ngOnInit()}} century
+    </div>
+  </div>
+</div>
+
+

@@ -1,11 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-kingspage',
   templateUrl: './kingspage.component.html',
   styleUrls: ['./kingspage.component.css']
 })
-export class KingspageComponent implements OnInit {
+export class KingspageComponent {
   rulers = [
       {
           name: 'Roman I The Great',
@@ -24,11 +24,8 @@ export class KingspageComponent implements OnInit {
           pic: 'https://upload.wikimedia.org/wikipedia/uk/3/3b/%D0%AE%D1%80%D1%96%D0%B9_I.png',
           bio: 'His full title was Yuri I, King of Ruthenia, Grand Prince of Kiev, Volydymyr-Volhynia, Halych, Lutsk, Dorohochyn. He married three times. His first wife was Yaroslavna of Tver (died ca. 1286). His second wife was Euphemia of Kuyavia (died 18 March 1308), daughter of Casimir I of Kuyavia. His third wife is unknown.'
       }
-  ] 
-    
-  constructor() { }
+  ]
 
-  ngOnInit() {
-  }
+  constructor() { }
 
 }

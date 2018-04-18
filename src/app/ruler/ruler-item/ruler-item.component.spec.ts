@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { CitiespageComponent } from './citiespage.component';
+import { RulerItemComponent } from './ruler-item.component';
 
-describe('CitiespageComponent', () => {
-  let component: CitiespageComponent;
-  let fixture: ComponentFixture<CitiespageComponent>;
+describe('RulerItemComponent', () => {
+  let component: RulerItemComponent;
+  let fixture: ComponentFixture<RulerItemComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CitiespageComponent ]
+      declarations: [ RulerItemComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CitiespageComponent);
+    fixture = TestBed.createComponent(RulerItemComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

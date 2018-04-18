@@ -1,3 +1,4 @@
-<p>
-  citiespage works!
-</p>
+<div *ngFor="let keys of objectKeys(citiesList)" class="regions">
+  <h2>{{keys}}</h2>
+  <div class="city" *ngFor="let cities of objectKeys(citiesList[keys])" (click)="openCity(cities, keys)">{{cities}}</div>
+</div>
