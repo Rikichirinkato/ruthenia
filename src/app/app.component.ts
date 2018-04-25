@@ -8,6 +8,6 @@ import {MatDialog} from '@angular/material';
 })
 export class AppComponent {
 
-  constructor(){}
+  constructor() {}
 
 }

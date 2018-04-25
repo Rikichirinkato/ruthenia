@@ -29,11 +29,11 @@ export class CitiespageComponent {
       },
     },
     Volyn: {
-      Volodymyr:{
+      Volodymyr: {
         name: 'Volodymyr',
         found: 10
       },
-      Lutsk:{
+      Lutsk: {
         name: 'Lutsk',
         found: 11
       }

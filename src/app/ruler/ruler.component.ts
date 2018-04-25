@@ -12,10 +12,9 @@ export class RulerComponent {
 
   constructor(public dialog: MatDialog) {}
 
-  rulerItem(): void{
+  rulerItem(): void {
     const dialogRef = this.dialog.open(RulerItemComponent, {
-      width: '500px',
-      height: '850px',
+      width: '600px',
       data: { ruler: this.ruler}
     });
   }

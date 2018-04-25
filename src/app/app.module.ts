@@ -18,15 +18,15 @@ import { CityItemComponent } from './citiespage/city-item/city-item.component';
 
 const routes = [
     {
-        path:'',
+        path: '',
         component: HomepageComponent
-    },{
+    }, {
         path: 'kings',
         component: KingspageComponent
-    },{
+    }, {
         path: 'cities',
         component: CitiespageComponent
-    },{
+    }, {
         path: 'history',
         component: HistorypageComponent
     }
@@ -53,6 +53,6 @@ const routes = [
   ],
   providers: [],
   bootstrap: [AppComponent],
-  entryComponents:[RulerItemComponent, CityItemComponent]
+  entryComponents: [RulerItemComponent, CityItemComponent ]
 })
 export class AppModule { }

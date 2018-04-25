@@ -1,4 +1,12 @@
-<div *ngFor="let keys of objectKeys(citiesList)" class="regions">
-  <h2>{{keys}}</h2>
-  <div class="city" *ngFor="let cities of objectKeys(citiesList[keys])" (click)="openCity(cities, keys)">{{cities}}</div>
+<div class="cities">
+  <div class="left-part">
+    <div *ngFor="let keys of objectKeys(citiesList)">
+      <h2>{{keys}} principality</h2>
+      <div class="city" *ngFor="let cities of objectKeys(citiesList[keys])" (click)="openCity(cities, keys)">{{cities}}</div>
+    </div>
+  </div>
+  <div class="right-part">
+    <img class="map" src="../../assets/img/kingdomOfRus.jpg" alt="map of kingdom of rus">
+    <h3>Map of Kingdom</h3>
+  </div>
 </div>

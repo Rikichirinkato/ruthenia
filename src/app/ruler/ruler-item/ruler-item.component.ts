@@ -1,5 +1,5 @@
 import { Component, Inject } from '@angular/core';
-import{MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
+import {MatDialogRef, MAT_DIALOG_DATA} from '@angular/material';
 
 @Component({
   selector: 'app-ruler-item',
@@ -12,7 +12,7 @@ export class RulerItemComponent {
     public dialogRef: MatDialogRef<RulerItemComponent>,
     @Inject(MAT_DIALOG_DATA) public data: any) {}
 
-  close(){
+  close() {
     this.dialogRef.close();
   }
 
