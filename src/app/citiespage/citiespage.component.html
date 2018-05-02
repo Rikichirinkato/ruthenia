@@ -1,8 +1,8 @@
 <div class="cities">
   <div class="left-part">
-    <div *ngFor="let keys of objectKeys(citiesList)">
+    <div *ngFor="let keys of objectKeys(cities)">
       <h2>{{keys}} principality</h2>
-      <div class="city" *ngFor="let cities of objectKeys(citiesList[keys])" (click)="openCity(cities, keys)">{{cities}}</div>
+      <div class="city" *ngFor="let cities of objectKeys(cities[keys])" (click)="openCity(cities, keys)">{{cities}}</div>
     </div>
   </div>
   <div class="right-part">
